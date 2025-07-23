@@ -1,4 +1,4 @@
-This is my portfolio which is under development right now.
+This is my portfolio.
 
 ## Technologies
 Next.js (thanks to Vercel)
