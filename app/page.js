@@ -27,7 +27,7 @@ export default function Page() {
           <p>Not that much qualified yet but taking my love <i>Web-Development</i> serious, from a very early age.</p>
           <br />
           <h3>Class X</h3>
-          <p>Currently pursuing from Holy Mother Bharatput, Rajasthan, India.</p>
+          <p>Currently pursuing from Holy Mother School Bharatput, Rajasthan, India.</p>
           <br />
           <h3>Coding Education</h3>
           <p>Going parallel with the coding too.</p>
