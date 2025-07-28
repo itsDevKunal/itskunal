@@ -8,7 +8,7 @@ export default function Page() {
     <main className={styles.main}>
       <div id="home" className={styles.welcom}>
         <h1>Kunal Bera</h1>
-        <h3>Full-Stack Web-Develper</h3>
+        <h3>Full-Stack Web-Developer</h3>
         <p>Welcome to my corner of the web! Where code meets creativity and every line tells a story. Grab a coffee, take a seat, and let’s build something awesome together. Keep scrolling—you’re just getting started!</p>
       </div>
       <br />
