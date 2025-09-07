@@ -23,22 +23,21 @@ export default function Navbar() {
 
     if (targetElement) {
       window.scrollTo({
-        top: targetElement.offsetTop - -10,
+        top: targetElement.offsetTop - 40,
         behavior: 'smooth',
       });
     }
   };
 
   return (
-    <div className={styles.parent}>
-      <nav className={styles.navbar}>
-        <ul>
-          <li><Link href='/'>Home</Link></li>
-          <li><a onClick={(e) => handleLinkClick(e, '#about')}>About</a></li>
-          <li><a onClick={(e) => handleLinkClick(e, '#skills')}>Skills</a></li>
-          <li><Link href='/contact'>Contact</Link></li>
-        </ul>
-      </nav>
-    </div>
+    <nav className={styles.navbar}>
+      <img className={styles.mypic} src="/pp.png" alt="mypic" />
+      <ul>
+        <li><Link href='/'>Home</Link></li>
+        <li><a onClick={(e) => handleLinkClick(e, '#about')}>About</a></li>
+        <li><a onClick={(e) => handleLinkClick(e, '#skills')}>Skills</a></li>
+        <li><Link href='/contact'>Contact</Link></li>
+      </ul>
+    </nav>
   );
 }

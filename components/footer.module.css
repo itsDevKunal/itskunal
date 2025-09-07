@@ -1,9 +1,10 @@
 .footer {
-  background-color: #111;
-  color: #555;
+  background-color: rgb(30, 41, 59);
   text-align: center;
   padding: 20px;
   margin-top: 50px;
-  z-index: 1000;
   position: relative; /* Add this line */
+}
+.footer p {
+  color: #fff;
 }
