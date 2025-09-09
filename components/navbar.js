@@ -2,8 +2,10 @@
 import Link from 'next/link';
 import styles from './navbar.module.css';
 import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function Navbar() {
+  const router = useRouter();
   useEffect(() => {
     // Scroll to the target with an offset when the page loads
     if (window.location.hash) {
@@ -26,6 +28,9 @@ export default function Navbar() {
         top: targetElement.offsetTop - 40,
         behavior: 'smooth',
       });
+    } else {
+      // If the target element is not found, navigate to the home page using Next.js router
+      router.push('/');
     }
   };
 
