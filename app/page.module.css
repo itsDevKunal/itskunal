@@ -14,6 +14,20 @@
 .left h1 {
   font-size: 60px;
   text-align: left;
+  color: #555;
+  background: linear-gradient(90deg,
+      #000080 0%,
+      #483d8b 35%,
+      #ff00ff 50%,
+      #483d8b 65%,
+      #000080 100%
+    );
+  background-size: 400% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: lux-colorful-gradient 10s ease-in-out infinite;
 }
 
 .left p {
@@ -117,6 +131,20 @@
 
 .skill:hover {
   transform: scale(1.05);
+}
+
+@keyframes lux-colorful-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media (max-width: 1155px) {
