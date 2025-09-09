@@ -146,6 +146,10 @@
     gap: 20px;
   }
 
+  .skills {
+    padding: 0;
+  }
+
   .skill {
     padding: 5px 0;
   }
@@ -153,6 +157,12 @@
   .skill img {
     width: 60px;
     margin-bottom: 5px;
+  }
+
+  .about {
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.1);
   }
 
   .aboutCont {

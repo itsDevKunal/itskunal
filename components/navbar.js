@@ -29,7 +29,6 @@ export default function Navbar() {
         behavior: 'smooth',
       });
     } else {
-      // If the target element is not found, navigate to the home page using Next.js router
       router.push('/');
     }
   };
