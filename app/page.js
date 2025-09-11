@@ -36,7 +36,7 @@ export default function Page() {
           <div className={styles.left}>
             <h1>Hi, I'm Kunal</h1>
             <h1>Creative Tech Enthusiast</h1>
-            <p>I build intractive, beautiful and modern web experience</p>
+            <p>I build interactive, beautiful and modern web experience</p>
             <br />
             <br />
             <a onClick={(e) => handleLinkClick(e, '#skills')} className={styles.button}>View my Skills</a>
