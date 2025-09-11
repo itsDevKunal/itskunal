@@ -4,13 +4,17 @@
   align-items: center;
   padding: 0 20px;
   position: fixed;
-  top: 0;
-  border-bottom: 1px solid #999;
-  width: 100%;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #999;
+  border-radius: 20px;
+  width: 90%;
   height: 40px;
   box-sizing: border-box;
   z-index: 1000;
   backdrop-filter: blur(10px);
+  background-color: rgba(102, 51, 102, 0.1);
 }
 
 .navbar ul {
@@ -42,6 +46,16 @@
 }
 
 @media (max-width: 900px) {
+  .navbar {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+  }
+
   .navbar ul {
     width: 100%;
   }

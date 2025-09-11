@@ -35,11 +35,11 @@ export default function Page() {
         <div id="home" className={styles.hero}>
           <div className={styles.left}>
             <h1>Hi, I'm Kunal</h1>
-            <h1>Creative Teach Enthusiast</h1>
-            <p>I build intractive, beautiful and modern web exprience</p>
+            <h1>Creative Tech Enthusiast</h1>
+            <p>I build intractive, beautiful and modern web experience</p>
             <br />
             <br />
-            <a onClick={(e) => handleLinkClick(e, '#about')} className={styles.button}>View my Skills</a>
+            <a onClick={(e) => handleLinkClick(e, '#skills')} className={styles.button}>View my Skills</a>
           </div>
           <div className={styles.right}>
             <img src="/coding.png" alt="Hero Image" />
