@@ -128,7 +128,7 @@ export default function Page() {
               <h3>Vercel</h3>
             </div>
             <div className={styles.skill}>
-              <img src="/figma.svg" alt="figma" />
+              <img src="/figma.svg" alt="image" />
               <h3>Figma</h3>
             </div>
           </div>
